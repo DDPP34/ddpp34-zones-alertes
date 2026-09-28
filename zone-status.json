@@ -1,4 +1,179 @@
 {
-  "zoneStatus": {},
-  "syncedAt": null
+  "syncedAt": "28/09/2026 09:55",
+  "zoneStatus": {
+    "11.03": [
+      {
+        "alerte": false,
+        "critere": "Cumul 3 j à NARBONNE > 75",
+        "cumulActuel": 0,
+        "inactif": false,
+        "jours": 3,
+        "prog": "J+1",
+        "seuil": 75,
+        "station": "NARBONNE"
+      },
+      {
+        "alerte": false,
+        "critere": "Cumul 1 j à NARBONNE > 35",
+        "cumulActuel": 0,
+        "inactif": false,
+        "jours": 1,
+        "prog": "J+1",
+        "seuil": 35,
+        "station": "NARBONNE"
+      }
+    ],
+    "11.05": [
+      {
+        "alerte": false,
+        "critere": "Cumul 3 j à NARBONNE > 75",
+        "cumulActuel": 0,
+        "inactif": false,
+        "jours": 3,
+        "prog": "J+1",
+        "seuil": 75,
+        "station": "NARBONNE"
+      },
+      {
+        "alerte": false,
+        "critere": "Cumul 1 j à NARBONNE > 35",
+        "cumulActuel": 0,
+        "inactif": false,
+        "jours": 1,
+        "prog": "J+1",
+        "seuil": 35,
+        "station": "NARBONNE"
+      }
+    ],
+    "11.11": [
+      {
+        "alerte": false,
+        "critere": "Cumul 3J à NARBONNE > 75",
+        "cumulActuel": 0,
+        "inactif": false,
+        "jours": 3,
+        "prog": "J+1",
+        "seuil": 75,
+        "station": "NARBONNE"
+      },
+      {
+        "alerte": false,
+        "critere": "Cumul 1 j à NARBONNE > 35",
+        "cumulActuel": 0,
+        "inactif": false,
+        "jours": 1,
+        "prog": "J+1",
+        "seuil": 35,
+        "station": "NARBONNE"
+      }
+    ],
+    "11.19": [
+      {
+        "alerte": false,
+        "critere": "Cumul 1J à LEUCATE > 30",
+        "cumulActuel": 0,
+        "inactif": false,
+        "jours": 1,
+        "prog": "J+2",
+        "seuil": 30,
+        "station": "LEUCATE"
+      }
+    ],
+    "11.24": [
+      {
+        "alerte": false,
+        "critere": "Cumul J-1 à LEUCATE > 25",
+        "cumulActuel": 0,
+        "inactif": true,
+        "jours": 1,
+        "prog": "J+2",
+        "seuil": 25,
+        "station": "LEUCATE"
+      }
+    ],
+    "30.05": [
+      {
+        "alerte": false,
+        "critere": "Cumul 2 j à AIGUES-MORTES > 40",
+        "cumulActuel": 0.2,
+        "inactif": false,
+        "jours": 2,
+        "prog": "J+1",
+        "seuil": 40,
+        "station": "AIGUES-MORTES"
+      }
+    ],
+    "34.02": [
+      {
+        "alerte": false,
+        "critere": "Cumul 3 j à BEZIERS > 65",
+        "cumulActuel": 0,
+        "inactif": false,
+        "jours": 3,
+        "prog": "J+1",
+        "seuil": 65,
+        "station": "BEZIERS-VIAS"
+      }
+    ],
+    "34.22": [
+      {
+        "alerte": false,
+        "critere": "Cumul 4 j à SETE > 60",
+        "cumulActuel": 0,
+        "inactif": true,
+        "jours": 4,
+        "prog": "J+1",
+        "seuil": 60,
+        "station": "SETE"
+      }
+    ],
+    "34.33": [
+      {
+        "alerte": false,
+        "critere": "Cumul 1 j à MONTP. > 30",
+        "cumulActuel": 0.2,
+        "inactif": false,
+        "jours": 1,
+        "prog": "J+1",
+        "seuil": 30,
+        "station": "MONTPELLIER-AEROPORT"
+      }
+    ],
+    "34.38.02": [
+      {
+        "alerte": false,
+        "critere": "Cumul 2 j à SETE > 40",
+        "cumulActuel": 0,
+        "inactif": false,
+        "jours": 2,
+        "prog": "J+1",
+        "seuil": 40,
+        "station": "SETE"
+      }
+    ],
+    "34.39.01": [
+      {
+        "alerte": false,
+        "critere": "Cumul 2 j à SETE > 40",
+        "cumulActuel": 0,
+        "inactif": false,
+        "jours": 2,
+        "prog": "J+1",
+        "seuil": 40,
+        "station": "SETE"
+      }
+    ],
+    "34.39.02": [
+      {
+        "alerte": false,
+        "critere": "Cumul 2 j à SETE > 40",
+        "cumulActuel": 0,
+        "inactif": false,
+        "jours": 2,
+        "prog": "J+1",
+        "seuil": 40,
+        "station": "SETE"
+      }
+    ]
+  }
 }
