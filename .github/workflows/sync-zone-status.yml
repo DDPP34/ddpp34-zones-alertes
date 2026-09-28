@@ -1,1 +1,43 @@
+name: Sync zone status DDPP34
+
+on:
+  schedule:
+    # Tous les lundis a 06:00 UTC (avant la resync hebdo du tableau de bord)
+    - cron: '0 6 * * 1'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer le depot
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installer les dependances
+        run: pip install requests
+
+      - name: Lire Cumuls_Zones_Alertes dans Grist et generer zone-status.json
+        env:
+          GRIST_BEARER_TOKEN: ${{ secrets.GRIST_BEARER_TOKEN }}
+        run: python sync_zone_status.py
+
+      - name: Publier le fichier si les donnees ont change
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add zone-status.json
+          if git diff --cached --quiet; then
+            echo "Aucun changement detecte."
+          else
+            git commit -m "Mise a jour automatique des statuts de zones"
+            git push
+          fi
 
