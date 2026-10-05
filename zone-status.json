@@ -1,11 +1,11 @@
 {
-  "syncedAt": "28/09/2026 09:55",
+  "syncedAt": "05/10/2026 08:25",
   "zoneStatus": {
     "11.03": [
       {
-        "alerte": false,
+        "alerte": true,
         "critere": "Cumul 3 j à NARBONNE > 75",
-        "cumulActuel": 0,
+        "cumulActuel": 150.39999999999998,
         "inactif": false,
         "jours": 3,
         "prog": "J+1",
@@ -25,9 +25,9 @@
     ],
     "11.05": [
       {
-        "alerte": false,
+        "alerte": true,
         "critere": "Cumul 3 j à NARBONNE > 75",
-        "cumulActuel": 0,
+        "cumulActuel": 150.39999999999998,
         "inactif": false,
         "jours": 3,
         "prog": "J+1",
@@ -47,9 +47,9 @@
     ],
     "11.11": [
       {
-        "alerte": false,
+        "alerte": true,
         "critere": "Cumul 3J à NARBONNE > 75",
-        "cumulActuel": 0,
+        "cumulActuel": 150.39999999999998,
         "inactif": false,
         "jours": 3,
         "prog": "J+1",
@@ -95,7 +95,7 @@
       {
         "alerte": false,
         "critere": "Cumul 2 j à AIGUES-MORTES > 40",
-        "cumulActuel": 0.2,
+        "cumulActuel": 1,
         "inactif": false,
         "jours": 2,
         "prog": "J+1",
@@ -107,7 +107,7 @@
       {
         "alerte": false,
         "critere": "Cumul 3 j à BEZIERS > 65",
-        "cumulActuel": 0,
+        "cumulActuel": 31,
         "inactif": false,
         "jours": 3,
         "prog": "J+1",
@@ -119,7 +119,7 @@
       {
         "alerte": false,
         "critere": "Cumul 4 j à SETE > 60",
-        "cumulActuel": 0,
+        "cumulActuel": 15.5,
         "inactif": true,
         "jours": 4,
         "prog": "J+1",
@@ -131,7 +131,7 @@
       {
         "alerte": false,
         "critere": "Cumul 1 j à MONTP. > 30",
-        "cumulActuel": 0.2,
+        "cumulActuel": 0,
         "inactif": false,
         "jours": 1,
         "prog": "J+1",
@@ -143,7 +143,7 @@
       {
         "alerte": false,
         "critere": "Cumul 2 j à SETE > 40",
-        "cumulActuel": 0,
+        "cumulActuel": 9.1,
         "inactif": false,
         "jours": 2,
         "prog": "J+1",
@@ -155,7 +155,7 @@
       {
         "alerte": false,
         "critere": "Cumul 2 j à SETE > 40",
-        "cumulActuel": 0,
+        "cumulActuel": 9.1,
         "inactif": false,
         "jours": 2,
         "prog": "J+1",
@@ -167,7 +167,7 @@
       {
         "alerte": false,
         "critere": "Cumul 2 j à SETE > 40",
-        "cumulActuel": 0,
+        "cumulActuel": 9.1,
         "inactif": false,
         "jours": 2,
         "prog": "J+1",
