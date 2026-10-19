@@ -1,5 +1,5 @@
 {
-  "syncedAt": "12/10/2026 08:25",
+  "syncedAt": "19/10/2026 08:38",
   "zoneStatus": {
     "11.03": [
       {
@@ -95,7 +95,7 @@
       {
         "alerte": false,
         "critere": "Cumul 2 j à AIGUES-MORTES > 40",
-        "cumulActuel": 0,
+        "cumulActuel": 5.9,
         "inactif": false,
         "jours": 2,
         "prog": "J+1",
@@ -119,7 +119,7 @@
       {
         "alerte": false,
         "critere": "Cumul 4 j à SETE > 60",
-        "cumulActuel": 0,
+        "cumulActuel": 0.2,
         "inactif": true,
         "jours": 4,
         "prog": "J+1",
